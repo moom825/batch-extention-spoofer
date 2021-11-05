@@ -62,7 +62,7 @@ goto LOOP
 )
 set done=%hello%%len%%%%var2%%blank%%renstien%%file2%
 call %done%
-rename %file% %test%
+rename "%file%" "%test%"
 pause
 :wrong
 echo that is not a valid option
